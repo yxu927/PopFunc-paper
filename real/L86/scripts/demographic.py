@@ -50,7 +50,7 @@ manual_ticks = [10**i for i in range(2, 6)]  # 10^2, 10^3, 10^4, 10^5
 plt.yticks(manual_ticks, [f"$10^{i}$" for i in range(2, 6)])
 
 # Save the figure as a high-resolution PNG (600 DPI)
-plt.savefig('/Users/xuyuan/Desktop/hcv.png',
+plt.savefig('../L86.png',
             format='png', dpi=600, bbox_inches='tight')
 
 # Show the plot
