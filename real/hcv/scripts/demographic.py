@@ -49,7 +49,7 @@ manual_ticks = [10**i for i in range(2, 6)]  # 10^2, 10^3, 10^4, 10^5
 plt.yticks(manual_ticks, [f"$10^{i}$" for i in range(2, 6)])
 
 
-plt.savefig('../real/hcv/figures/demographic_history_logscale_600dpi.png',
+plt.savefig('../real/hcv/figures/hcv.png',
             format='png', dpi=600, bbox_inches='tight')
 
 # Finally, show the plot on screen
