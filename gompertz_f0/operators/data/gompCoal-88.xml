@@ -140,7 +140,7 @@
       <down idref="tree"/>
     </operator>
     <operator id="AVMNOperator" spec="kernel.AdaptableVarianceMultivariateNormalOperator" beta="0.05" burnin="400" initial="800" weight="2">
-    <transformations id="f0Transform" spec="operator.kernel.Transform$Interval" lower="0.0" upper="1.0">
+    <transformations id="f0Transform" spec="operator.kernel.Transform$LogitTransform">
         <f idref="f0"/>
     </transformations>
     <transformations id="bTransform" spec="operator.kernel.Transform$LogTransform">
